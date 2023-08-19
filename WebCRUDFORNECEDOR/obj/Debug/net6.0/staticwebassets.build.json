@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "agx1nsy5J8ZDA7Skwso7vYujJT4GMI7ZByCpPfwVRMs=",
+  "Hash": "ChBzaEXsvjllldAdTxgNVRf1RNIQIqM6G1nqxHNUA9I=",
   "Source": "WebCRUDFORNECEDOR",
   "BasePath": "_content/WebCRUDFORNECEDOR",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebCRUDFORNECEDOR.bundle.scp.css"
     },
     {
+      "Identity": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\comercio.png",
+      "SourceId": "WebCRUDFORNECEDOR",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\",
+      "BasePath": "_content/WebCRUDFORNECEDOR",
+      "RelativePath": "comercio.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\comercio.png"
+    },
+    {
       "Identity": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\css\\site.css",
       "SourceId": "WebCRUDFORNECEDOR",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\industria.png",
+      "SourceId": "WebCRUDFORNECEDOR",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\",
+      "BasePath": "_content/WebCRUDFORNECEDOR",
+      "RelativePath": "industria.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\industria.png"
     },
     {
       "Identity": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\js\\site.js",
@@ -1069,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\servico.png",
+      "SourceId": "WebCRUDFORNECEDOR",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\",
+      "BasePath": "_content/WebCRUDFORNECEDOR",
+      "RelativePath": "servico.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\servico.png"
     }
   ]
 }

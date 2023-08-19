@@ -19,34 +19,48 @@
                 <input asp-for="nome" class="form-control" />
                 <span asp-validation-for="nome" class="text-danger"></span>
             </div>
+
+            <br/>
             
             <div class="form-group">
                 <label asp-for="cnpj" class="control-label"></label>
                 <input asp-for="cnpj" class="form-control" />
                 <span asp-validation-for="cnpj" class="text-danger"></span>
             </div>
+
+            <br/>
             
             <div class="form-group">
                 <label asp-for="especialidade" class="control-label"></label>
-                <input asp-for="especialidade" class="form-control" />
+                <select asp-for="especialidade" class="form-control">
+                    <option value="Comércio">Comércio</option>
+                    <option value="Serviço">Serviço</option>
+                    <option value="Indústria">Indústria</option>
+                </select>
                 <span asp-validation-for="especialidade" class="text-danger"></span>
             </div>
+
+            <br/>
             
             <div class="form-group">
                 <label asp-for="endereco" class="control-label"></label>
                 <input asp-for="endereco" class="form-control" />
                 <span asp-validation-for="endereco" class="text-danger"></span>
             </div>
+
+            <br/>
             
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Salvar alteração" class="btn btn-primary" />
             </div>
+
+            <br/>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar para a lista</a>
 </div>
 
 @section Scripts {

@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\WebCRUDFORNECEDOR.bundle.scp.css"
     },
     {
+      "Id": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\comercio.png",
+      "PackagePath": "staticwebassets\\comercio.png"
+    },
+    {
       "Id": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\industria.png",
+      "PackagePath": "staticwebassets\\industria.png"
     },
     {
       "Id": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\js\\site.js",
@@ -243,6 +251,10 @@
     {
       "Id": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Projetos\\C#Repository\\WebCRUDFORNECEDOR\\WebCRUDFORNECEDOR\\wwwroot\\servico.png",
+      "PackagePath": "staticwebassets\\servico.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebCRUDFORNECEDOR.Microsoft.AspNetCore.StaticWebAssets.props",
