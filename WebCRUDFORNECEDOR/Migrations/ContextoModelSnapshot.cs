@@ -29,13 +29,17 @@ namespace WebCRUDFORNECEDOR.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"), 1L, 1);
 
+                    b.Property<int>("cep")
+                        .HasColumnType("int");
+
                     b.Property<string>("cnpj")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("endereco")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("especialidade")
                         .IsRequired()
@@ -43,7 +47,8 @@ namespace WebCRUDFORNECEDOR.Migrations
 
                     b.Property<string>("nome")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("id");
 

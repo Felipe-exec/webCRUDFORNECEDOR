@@ -48,7 +48,7 @@ namespace WebCRUDFORNECEDOR.Controllers
         // POST: Fornecedor/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,nome,cnpj,especialidade,endereco")] Fornecedor fornecedor)
+        public async Task<IActionResult> Create([Bind("id,nome,cnpj,especialidade,cep,endereco")] Fornecedor fornecedor)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace WebCRUDFORNECEDOR.Controllers
         // POST: Fornecedor/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("id,nome,cnpj,especialidade,endereco")] Fornecedor fornecedor)
+        public async Task<IActionResult> Edit(int id, [Bind("id,nome,cnpj,especialidade,cep,endereco")] Fornecedor fornecedor)
         {
             if (id != fornecedor.id)
             {
