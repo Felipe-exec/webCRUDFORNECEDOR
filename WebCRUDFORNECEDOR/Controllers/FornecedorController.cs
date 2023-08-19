@@ -21,7 +21,7 @@ namespace WebCRUDFORNECEDOR.Controllers
             return View(await _context.Fornecedor.ToListAsync());
         }
 
-        // GET: Fornecedor/Details/5
+        // GET: Fornecedor/Details/
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -59,7 +59,7 @@ namespace WebCRUDFORNECEDOR.Controllers
             return View(fornecedor);
         }
 
-        // GET: Fornecedor/Edit/5
+        // GET: Fornecedor/Edit/
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -75,7 +75,7 @@ namespace WebCRUDFORNECEDOR.Controllers
             return View(fornecedor);
         }
 
-        // POST: Fornecedor/Edit/5
+        // POST: Fornecedor/Edit/
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("id,nome,cnpj,especialidade,cep,endereco")] Fornecedor fornecedor)
@@ -108,7 +108,7 @@ namespace WebCRUDFORNECEDOR.Controllers
             return View(fornecedor);
         }
 
-        // GET: Fornecedor/Delete/5
+        // GET: Fornecedor/Delete/
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -126,7 +126,7 @@ namespace WebCRUDFORNECEDOR.Controllers
             return View(fornecedor);
         }
 
-        // POST: Fornecedor/Delete/5
+        // POST: Fornecedor/Delete/
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
