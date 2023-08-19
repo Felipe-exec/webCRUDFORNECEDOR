@@ -1,8 +1,10 @@
 # webCRUDFORNECEDOR
 CRUD usando ASP.NET CORE MVC
 
-estou com problema para deletar fornecedor -_-
+resta somente o problema para deletar fornecedores -_-
 
-falta fazer o CEP funcionar com integração da API: https://viacep.com.br
+links úteis:
+(https://stackoverflow.com/questions/70877255/add-migration-a-parameter-cannot-be-found-that-matches-parameter-name-context)
+(https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
 Sinta-se livre para colaborar e ajudar!

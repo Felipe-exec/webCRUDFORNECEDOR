@@ -11,7 +11,7 @@ using WebCRUDFORNECEDOR.Models;
 namespace WebCRUDFORNECEDOR.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20230819101145_Inicial-criacao")]
+    [Migration("20230819113359_Inicial-criacao")]
     partial class Inicialcriacao
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,9 +34,8 @@ namespace WebCRUDFORNECEDOR.Migrations
                     b.Property<int>("cep")
                         .HasColumnType("int");
 
-                    b.Property<string>("cnpj")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<long>("cnpj")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("endereco")
                         .IsRequired()

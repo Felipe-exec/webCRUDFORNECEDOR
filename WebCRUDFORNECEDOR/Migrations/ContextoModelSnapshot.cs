@@ -32,9 +32,8 @@ namespace WebCRUDFORNECEDOR.Migrations
                     b.Property<int>("cep")
                         .HasColumnType("int");
 
-                    b.Property<string>("cnpj")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<long>("cnpj")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("endereco")
                         .IsRequired()

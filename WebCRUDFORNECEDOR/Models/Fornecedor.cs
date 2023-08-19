@@ -6,7 +6,6 @@ namespace WebCRUDFORNECEDOR.Models
     [Table("Fornecedor")]
     public class Fornecedor
     {
-        [Column]
         [Display(Name = "id")]
         public int id { get; set; }
 
@@ -16,15 +15,13 @@ namespace WebCRUDFORNECEDOR.Models
 
         [Display(Name = "CNPJ")]
         [RegularExpression(@"^\d{14}$", ErrorMessage = "O CNPJ deve conter exatamente 14 dígitos numéricos.")]
-        public string cnpj { get; set; }
+        public long cnpj { get; set; } // problemas com *int, movido para *long
 
-
-        [Column]
         [Display(Name = "Especialidade")]
         public string especialidade { get; set; }
 
         [Display(Name = "CEP")]
-        [RegularExpression(@"^\d{8}$", ErrorMessage = "O CEP deve conter exatamente 8 dígitos.")]
+        [RegularExpression(@"^\d{1,8}$", ErrorMessage = "O CEP deve conter no máximo 8 dígitos.")]
         public int cep { get; set; }
 
         [Display(Name = "Endereço")]

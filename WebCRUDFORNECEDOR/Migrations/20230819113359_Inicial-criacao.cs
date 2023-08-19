@@ -15,7 +15,7 @@ namespace WebCRUDFORNECEDOR.Migrations
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     nome = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    cnpj = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cnpj = table.Column<long>(type: "bigint", nullable: false),
                     especialidade = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     cep = table.Column<int>(type: "int", nullable: false),
                     endereco = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
